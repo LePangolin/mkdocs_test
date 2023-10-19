@@ -24,4 +24,4 @@ jobs:
       - run: pip install mkdocs-minify-plugin
       - run: pip install mkdocs_puml
       - working-directory: ./docs
-        run: mkdocs serve
+        run: mkdocs build
