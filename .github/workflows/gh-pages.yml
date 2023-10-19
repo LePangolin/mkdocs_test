@@ -24,4 +24,5 @@ jobs:
       - run: pip install mkdocs-minify-plugin
       - run: pip install mkdocs_puml
       - working-directory: ./docs
-        run: mkdocs build
+        run: mkdocs gh-deploy --force --clean --verbose
+      
